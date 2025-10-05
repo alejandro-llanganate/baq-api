@@ -1,0 +1,53 @@
+# Dependencias
+node_modules
+npm-debug.log*
+
+# Archivos de desarrollo
+.git
+.gitignore
+README.md
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+
+# Archivos de cobertura
+coverage
+.nyc_output
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+
+# Archivos temporales
+tmp
+temp
+
+# Build outputs (se construyen dentro del contenedor)
+dist
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Tests
+test
+*.test.js
+*.spec.js
+
+# Archivos de configuración de desarrollo
+.eslintrc*
+.prettierrc*
+jest.config.js
